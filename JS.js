@@ -6,7 +6,7 @@ value = 99;
 
 for (let i = 0; i < N; i++) {
 	arr.push(Math.round(Math.random() * 100));
-};
+}
 
 document.write('<br>' + arr);
 
@@ -16,9 +16,9 @@ for (let j = 0; j < N; j++) {
 			container = arr[i+1];
 			arr[i+1] = arr[i];
 			arr[i] = container;
-		};
-	};
-};
+		}
+	}
+}
 document.write('<br>' + arr);
 
 function binary(defined, value) {
@@ -38,17 +38,8 @@ function binary(defined, value) {
 		else 
 		{	
 			high = midle - 1;
-		};	
-	};
+		}
+	}
 //return - 1;
-};
+}
 
-binary(arr, value);
-
-for (let i = 0; i < N; i++) {
-	arr2.push(Math.round(Math.random() * 100));
-};
-
-document.write('<br>' + arr);
-
-while (arr2[i])
